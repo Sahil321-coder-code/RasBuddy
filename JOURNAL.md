@@ -19,8 +19,9 @@ So, the software I have chosen is 💻:
  3. Libraries: vosk, sounddevice, pyttsx3, argostranslate, requests, Pillow, Adafruit-SSD1306, etc.
      (Refer to instructions.txt )
 
-   ![Screenshot 2025-05-29 091201](https://github.com/user-attachments/assets/db77e2ab-abdf-4654-ae5a-ad2d0bd8eebe)
-   ![Screenshot 2025-05-29 090920](https://github.com/user-attachments/assets/5603949c-71ae-4a44-b33e-cfa7e90aeb72)
+   ![Screenshot 2025-05-29 090920](https://github.com/user-attachments/assets/dbe9520b-719e-4b50-9476-25c67784cc9e)
+   ![Screenshot 2025-05-29 091201](https://github.com/user-attachments/assets/a8cdb03f-1d8e-487b-b8e6-5aa9c7ed2e48)
+
 
 
 **Total time spent: 3h**
