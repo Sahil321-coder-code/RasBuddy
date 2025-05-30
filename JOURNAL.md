@@ -26,4 +26,8 @@ So, the software I have chosen is 💻:
 
 **Total time spent: 3h**
 
+# May 30th: Half Python Programming!
+
+So, first, enable I2C: Go to: Interface Options > I2C > Enable in Raspberry Pi Imager.
+
 
