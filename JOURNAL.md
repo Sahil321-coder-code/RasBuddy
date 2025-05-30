@@ -52,7 +52,7 @@ wget https://www.argosopentech.com/argospm/index/translate-hi_en.argosmodel
 argos-translate --install translate-hi_en.argosmodel
 06
 ```
-
+**Total time spent: 3.6h**
 
 
 
