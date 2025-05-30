@@ -14,7 +14,7 @@ So, the hardware I have chosen is 🛠️:
  4. Speaker 3.5mm Jack
  5. MicroSD card 32GB
 So, the software I have chosen is 💻:
- 1. Raspberry Pi OS (32-bit)
+ 1. Raspberry Pi Imager
  2. Python 3.7+
  3. Libraries: vosk, sounddevice, pyttsx3, argostranslate, requests, Pillow, Adafruit-SSD1306, etc.
      (Refer to instructions.txt )
