@@ -13,7 +13,9 @@ So, the hardware I have chosen is 🛠️:
  3. USB Microphone ( Storin Mini Speech Microphone with USB Connector Stand for PC Laptop Desktop ) 
  4. Speaker 3.5mm Jack
  5. MicroSD card 32GB
+    
 So, the software I have chosen is 💻:
+
  1. Raspberry Pi Imager
  2. Python 3.7+
  3. Libraries: vosk, sounddevice, pyttsx3, argostranslate, requests, Pillow, Adafruit-SSD1306, etc.
