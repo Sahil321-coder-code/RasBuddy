@@ -39,7 +39,7 @@ sudo apt install python3-pip python3-pil i2c-tools espeak portaudio19-dev -y
 pip3 install vosk pyttsx3 sounddevice pygame argostranslate requests adafruit-circuitpython-ssd1306
 ```
 
-Next, download and install the libraries:(The files that we will be downloading inn the code are given in Important Files > Libraries > ( You will see two files, download them and upload them into your RasBuddy code ) after uploading the two files in the code run this code in the terminal of Raspberry Pi Imager:
+Next, download and install the libraries:(The files that we will be downloading in the code are given in Important Files > Libraries > ( there will be a Google Drive link, click on it)( You will see two files, download them and upload them into your RasBuddy code.) After uploading the two files, run this code in the terminal of Raspberry Pi Imager:
 
 Install Vosk Model & Argos Model:
 ```bash
