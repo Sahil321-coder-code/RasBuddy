@@ -28,6 +28,33 @@ So, the software I have chosen is 💻:
 
 # May 30th: Half Python Programming!
 
-So, first, enable I2C: Go to: Interface Options > I2C > Enable in Raspberry Pi Imager.
+After Downloading Raspberry Pi Imager.
+First, enable I2C by going to Interface Options > I2C > Enable in Raspberry Pi Imager.
+Next: Install the required libraries ( Copy the text below and paste it in the Raspberry Pi Imager Terminal )
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install python3-pip python3-pil i2c-tools espeak portaudio19-dev -y
+
+pip3 install vosk pyttsx3 sounddevice pygame argostranslate requests adafruit-circuitpython-ssd1306
+```
+
+Next, download and install the libraries:(The files that we will be downloading inn the code are given in Important Files > Libraries > ( You will see two files, download them and upload them into your RasBuddy code ) after uploading the two files in the code run this code in the terminal of Raspberry Pi Imager:
+
+Install Vosk Model & Argos Model:
+```bash
+# Vosk small model (offline speech recognition)
+wget https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
+unzip vosk-model-small-en-us-0.15.zip
+
+# Argos Hindi to English translation model
+wget https://www.argosopentech.com/argospm/index/translate-hi_en.argosmodel
+argos-translate --install translate-hi_en.argosmodel
+06
+```
+
+
+
+
 
 
