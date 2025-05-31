@@ -32,14 +32,26 @@ So, the software I have chosen is 💻:
 
 After Downloading Raspberry Pi Imager.
 You will get three options on starting Pi Imager:
- 1.It will be Choose Device , select Raspberry Pi 4
- 2.Next option will be Choose OS , select Raspberry Pi OS (64-bit)
- 3.Last option will be Choose Storage , for that you needto insert the SD Card you brought and you will see one option when you put the sd card , select it, then continue
-   you will get option customize so click No.
+ 1.It will be Choose Device, select Raspberry Pi 4
+ 2. Next option will be Choose OS, select Raspberry Pi OS (64-bit)
+ 3. The last option will be Choose Storage. For that, you need to insert the SD Card you brought, and you will see one option when you put the SD card, select it, then continue
+   you will get the option to customize, so click edit settings. Next, put these things in their place:
    
-*If you are not getting how to do it, just take the reference from the video link below, but remember my instructions, just use video for reference, for SD Card and configurations.
-
-[Click Here](https://www.youtube.com/watch?v=6-wRdPFGrYk)
+ Set hostname : raspi-assistant
+ 
+ Enable SSH: Yes
+ 
+ Set username and password (e.g., pi/raspberry)
+ 
+ Configure Wi-Fi 
+ 
+ Set locale, timezone (e.g., Asia/Kolkata for India) 
+ 
+ Click Save.
+ 
+ Then click Yes, then Yes again.
+ 
+Congratulations You have successfully Setup the Pi Imager
 
 First, enable I2C by going to Interface Options > I2C > Enable in Raspberry Pi Imager.
 Next: Install the required libraries ( Copy the text below and paste it in the Raspberry Pi Imager Terminal )
@@ -67,6 +79,7 @@ argos-translate --install translate-hi_en.argosmodel
 **Total time spent: 3.6h**
 
 # May 31st: Python Programming Completed and the Project also Completed!
+
 
 
 
