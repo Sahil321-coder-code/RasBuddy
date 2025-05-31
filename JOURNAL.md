@@ -83,7 +83,16 @@ argos-translate --install translate-hi_en.argosmodel
 
 # May 31st: Python Programming Completed and the Project also Completed!
 
+So, today is the last day, and  I have successfully completed the Python Programming The file of Python Programming is given in the Important Files > Program files > ( Here you will get the file ) 
 
+Your folder in Raspberry Pi should look like this :
+```bash
+raspi-assistant/
+├── assistant.py            # Final Python code
+├── vosk-model/             # Extracted vosk model folder (e.g. vosk-model-small-en-us-0.15)
+├── music/
+│   └── song1.mp3           # Your music file
+└── translate_model.argosmodel  # Optional: Argos Hindi-English model if offline
 
-
-
+```
+The code file is given in "assistant.py" in the important files, and also name the song you want as song1.mp3. The folder structure is given above.
