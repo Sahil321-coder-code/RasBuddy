@@ -19,6 +19,13 @@ Other Capabilities: It also has many other capabilities, like if I tell it to pl
 
 # Hope You Like My Project!
 
+Here are some Pics!!!
+
+![Screenshot 2025-05-31 104549](https://github.com/user-attachments/assets/7f4c559e-dae5-4588-a106-03db925e55c5)
+![Screenshot 2025-05-31 104658](https://github.com/user-attachments/assets/c73439df-fcdc-43f7-b0d0-e38b13fe0e07)
+![Screenshot 2025-05-31 104614](https://github.com/user-attachments/assets/96e79cef-b264-4450-8c8a-a57a56af044b)
+
+
 
 The parts list is given in the Parts List(BOM). csv.
 
