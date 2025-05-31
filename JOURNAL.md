@@ -53,6 +53,9 @@ You will get three options on starting Pi Imager:
  
 Congratulations You have successfully Setup the Pi Imager
 
+
+If you are not getting the instructions , how to do it then click [here](https://drive.google.com/file/d/1qQF-NHXBG2cuox9VjBYXK5pml_ZQaf1B/view?usp=sharing)
+
 First, enable I2C by going to Interface Options > I2C > Enable in Raspberry Pi Imager.
 Next: Install the required libraries ( Copy the text below and paste it in the Raspberry Pi Imager Terminal )
 
