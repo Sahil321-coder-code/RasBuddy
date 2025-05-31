@@ -30,4 +30,5 @@ So this is the AI Assistant Designed to Communicate with Humans And it is equipp
 |50 CM Micro USB Cable |To power Arduino and for uploading code                                                             |Robu.in         |$0.37          |      $0.24       |       $0.61              |
 |Rasberry Pi SD Card    | Storage                                 |N/A        | $13.55 |   $2.00    |      $14.55         |   
 |Raspberry Pi 4  B ( 4 GB )  | Offline Controller                                |Robu.in        | $64 |   $2    |      $66         | 
-|Speaker  | To hear the input                                 |Amazon        | $10 |   $0.76    |      $10.76         |
+|Speaker 3.5mm Jack | To hear the output                                |Amazon        | $10 |   $0.76    |      $10.76         |
+|USB Microphone ( Storin Mini Speech Microphone with USB Connector Stand for PC Laptop Desktop )| To give the input                                 |Amazon        | $3.51 |   $0.76    |      $4.27         |
