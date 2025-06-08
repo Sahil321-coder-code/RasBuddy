@@ -31,7 +31,7 @@ The parts list is given in the Parts List(BOM). csv.
 
 |     Item      |                                                        Purpose                                                               |     Source    |     Price     |    Shipping    | Total Price
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------- | -------------- | --------------------- |
-| by saying the answer in the speaker and also showing the answer           |For displaying animated eyes, Time, Short Answers, & Weather                                                                                    |Robu.in     |$5.81            |      $0.25       |  $6.06                     |
+| OLED Displayr           |For displaying animated eyes, Time, Short Answers, & Weather                                                                                    |Robu.in     |$5.81            |      $0.25       |  $6.06                     |
 |Power Bank or USB Battery|Main power unit                                                                  |Amazon         |$8.99          |      $1        |   $9.99            |
 |50 CM Micro USB Cable |To power Arduino and for uploading code                                                             |Robu.in         |$0.37          |      $0.24       |       $0.61              |
 |Rasberry Pi SD Card    | Storage                                 |N/A        | $13.55 |   $2.00    |      $14.55         |   
