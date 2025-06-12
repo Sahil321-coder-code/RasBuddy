@@ -10,6 +10,7 @@ Voice Recognition: This raspberry listen to the input you give using the USB mic
 
 Translation: It also translates what you say the model I'm using here is Hindi to English I'm using Argos model for translation so if I say "Udhar Kya Hai?" in Hindi so it will write it's version in English format on OLED display and even speak it it will be like "What is there?".
 
+![Screenshot 2025-05-31 104658](https://github.com/user-attachments/assets/c73439df-fcdc-43f7-b0d0-e38b13fe0e07)
 
 Playing Music: It will also play music when you say play music in I've just added one song feature, but you can also change it as your convenience.
 
@@ -21,7 +22,6 @@ Other Capabilities: It also has many other capabilities, like if I tell it to pl
 
 Here are some Pics!!!
 
-![Screenshot 2025-05-31 104658](https://github.com/user-attachments/assets/c73439df-fcdc-43f7-b0d0-e38b13fe0e07)
 ![Screenshot 2025-05-31 104614](https://github.com/user-attachments/assets/96e79cef-b264-4450-8c8a-a57a56af044b)
 
 
