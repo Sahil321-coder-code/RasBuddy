@@ -10,7 +10,7 @@ Created_at: "29-05-2025"
 So, the hardware I have chosen is 🛠️:
  1. Raspberry Pi 4 4GB
  2. SSD1306 OLED display (I2C)
- 3. USB Microphone ( Storin Mini Speech Microphone with USB Connector Stand for PC Laptop Desktop ) 
+ 3. USB Microphone Raspberry Pi compatible Microphone (Refer to the video) 
  4. Speaker 3.5mm Jack
  5. MicroSD card 32GB
     
