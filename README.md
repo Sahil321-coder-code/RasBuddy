@@ -37,4 +37,7 @@ The parts list is given in the Parts List(BOM). csv.
 |Rasberry Pi SD Card    | Storage                                 |N/A        | $13.55 |   $2.00    |      $14.55         |   
 |Raspberry Pi 4  B ( 4 GB )  | Offline Controller                                |Robu.in        | $64 |   $2    |      $66         | 
 |Speaker 3.5mm Jack | To hear the output                                |Amazon        | $10 |   $0.76    |      $10.76         |
-|USB Microphone ( Storin Mini Speech Microphone with USB Connector Stand for PC Laptop Desktop )| To give the input                                 |Amazon        | $3.51 |   $0.76    |      $4.27         |
+|USB Microphone Compatible to Raspberry Pi | To give the input                                 |Amazon        | $4.56 |   $0.76    |      $5.32        |
+
+
+If you can't find the Microphone refer to this link: [USB MICROPHONE](https://amzn.in/d/cpBY2zB)
