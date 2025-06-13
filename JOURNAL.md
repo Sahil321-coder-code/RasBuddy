@@ -4,7 +4,7 @@ Author: "Sahil321-Coder"
 Description: "A AI Assistant made with Raspberry Pi"
 Created_at: "29-05-2025"
 ---
-# Total Time Spent = 25.2
+# Total Time Spent = 25.2 Hours
 
 # May 29th: Choosing the Hardware, Software & Designing 3D Model!
 
