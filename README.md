@@ -32,11 +32,11 @@ The parts list is given in the Parts List(BOM). csv.
 |     Item      |                                                        Purpose                                                               |     Source    |     Price     |    Shipping    | Total Price
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------- | -------------- | --------------------- |
 | OLED Displayr           |For displaying animated eyes, Time, Short Answers, & Weather                                                                                    |Robu.in     |$5.81            |      $0.25       |  $6.06                     |
-|50 CM Micro USB Cable |To power Arduino and for uploading code                                                             |Robu.in         |$0.37          |      $0.24       |       $0.61              |
-|Rasberry Pi SD Card    | Storage                                 |N/A        | $13.55 |   $2.00    |      $14.55         |   
-|Raspberry Pi 4  B ( 4 GB )  | Offline Controller                                |Robu.in        | $64 |   $2    |      $66         | 
-|Speaker 3.5mm Jack | To hear the output                                |Amazon        | $10 |   $0.76    |      $10.76         |
-|USB Microphone Compatible to Raspberry Pi | To give the input                                 |Amazon        | $4.56 |   $0.76    |      $5.32        |
+|50 CM Micro USB Cable |To power Arduino and for uploading code                                                             |Ebhoot        |$0.37          |      $0.24       |       $0.61              |
+|Rasberry Pi SD Card    | Storage                                 |RoboticsDNA       | $4.63 |   $1.00    |      $5.63         |   
+|Raspberry Pi 4  B ( 4 GB )  | Offline Controller                                |RoboticsDNA        | $55.78 |   $1    |      $56.78        | 
+|Speaker 3.5mm Jack | To hear the output                                |n/a       | $5 |   $0    |      $5         |
+|USB Microphone Compatible to Raspberry Pi | To give the input                                 |Silverline Electronic        | $2.67 |   $0   |      $2.67        |
 
 
-If you can't find the Microphone refer to this link: [USB MICROPHONE](https://amzn.in/d/cpBY2zB)
+If you can't find the Microphone, refer to this link: [USB MICROPHONE](https://amzn.in/d/cpBY2zB)
