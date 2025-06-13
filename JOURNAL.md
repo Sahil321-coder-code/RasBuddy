@@ -4,6 +4,7 @@ Author: "Sahil321-Coder"
 Description: "A AI Assistant made with Raspberry Pi"
 Created_at: "29-05-2025"
 ---
+# Total Time Spent = 25.2
 
 # May 29th: Choosing the Hardware, Software & Designing 3D Model!
 
@@ -26,7 +27,7 @@ So, the software I have chosen is 💻:
 
 
 
-**Total time spent: 3h**
+**Total time spent: 6.2h**
 
 # May 30th: Half Python Programming!
 
@@ -51,10 +52,10 @@ You will get three options on starting Pi Imager:
  
  Then click Yes, then Yes again.
  
-Congratulations You have successfully Setup the Pi Imager
+Congratulations you have successfully set up the Pi Imager
 
 
-If you are not getting the instructions , how to do it then click [here](https://drive.google.com/file/d/1qQF-NHXBG2cuox9VjBYXK5pml_ZQaf1B/view?usp=sharing)
+If you are not getting the instructions, how to do it ,then click [here](https://drive.google.com/file/d/1qQF-NHXBG2cuox9VjBYXK5pml_ZQaf1B/view?usp=sharing)
 
 First, enable I2C by going to Interface Options > I2C > Enable in Raspberry Pi Imager.
 Next: Install the required libraries ( Copy the text below and paste it in the Raspberry Pi Imager Terminal )
@@ -79,7 +80,7 @@ wget https://www.argosopentech.com/argospm/index/translate-hi_en.argosmodel
 argos-translate --install translate-hi_en.argosmodel
 06
 ```
-**Total time spent: 3.6h**
+**Total time spent: 7.5h**
 
 # May 31st: Python Programming Completed and the Project also Completed!
 
@@ -95,4 +96,6 @@ raspi-assistant/
 └── translate_model.argosmodel  # Optional: Argos Hindi-English model if offline
 
 ```
-The code file is given in "assistant.py" in the important files, and also name the song you want as song1.mp3. The folder structure is given above.
+The code file is given in "assistant.py" in the important files, and also name the song you want as song1.mp3. The folder structure is given 
+
+**Total time spent: 11.5h**
