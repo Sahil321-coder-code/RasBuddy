@@ -8,6 +8,8 @@ Created_at: "29-05-2025"
 
 # May 29th: Choosing the Hardware, Software & Designing 3D Model
 
+#9:00 PM
+
 So, today I will be chosing the hardware for my project and also I need to choose them by their quality, price & its working too! So, its  9:00 AM here I am on my laptop
 
 # 4:00 PM:
