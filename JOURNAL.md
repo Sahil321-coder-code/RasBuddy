@@ -4,10 +4,14 @@ Author: "Sahil321-Coder"
 Description: "A AI Assistant made with Raspberry Pi"
 Created_at: "29-05-2025"
 ---
-# Total Time Spent = 25.2 Hours
+# Total Time Spent = 30 Hours
 
-# May 29th: Choosing the Hardware, Software & Designing 3D Model!
+# May 29th: Choosing the Hardware, Software & Designing 3D Model
 
+So, today I will be chosing the hardware for my project and also I need to choose them by their quality, price & its working too! So, its  9:00 AM here I am on my laptop
+
+# 4:00 PM:
+So I have successfully chosen the hardware and there is also the lists of Hardware and Software below.
 So, the hardware I have chosen is 🛠️:
  1. Raspberry Pi 4 4GB
  2. SSD1306 OLED display (I2C)
@@ -84,7 +88,11 @@ argos-translate --install translate-hi_en.argosmodel
 
 # May 31st: Python Programming Completed and the Project also Completed!
 
-So, today is the last day, and  I have successfully completed the Python Programming The file of Python Programming is given in the Important Files > Program files > ( Here you will get the file ) 
+So, I have yesterday made the Python Programming but half and now I am completing it and also adding advaced features like Music, Time, Wetaher, etc.To know more features stay  tuned for the final prototype, it will be made if my project gets approved! And also make sure you are well known to python programming, beacuse you need to have a proper knowledge of python for this project, to resolve error, & queries, etc. So, best of luck for your project.!
+
+# Below is the folder structure. Your folder structure for Raspberry Pi Imager should resemble this, and also unzip the VOSK model file as specified in the structure.
+
+So, today is the last day, and  I have successfully completed the Python Programming. The file of Python Programming is given in the Important Files > Program files > ( Here you will get the file ) 
 
 Your folder in Raspberry Pi should look like this :
 ```bash
@@ -99,3 +107,17 @@ raspi-assistant/
 The code file is given in "assistant.py" in the important files, and also name the song you want as song1.mp3. The folder structure is given 
 
 **Total time spent: 11.5h**
+
+# June 1st: Writing the README.md!
+
+It's 5:00 PM here and I am starting to write the readme of my project and also making some corrections in the Python Program and downloading images of 3D Model made in Blender & FreeCAD.
+
+It's 7:45 PM and I have sucessfully completed writing the README.md and now finally Debugging the code.
+
+It's 9:30 PM and I have sucessfully completed Debugging the code and also writing the README.md.
+
+**Total time spent: 4.5h**
+
+# Voila Your Project is Ready and your new Friend Too!
+
+# Enjoy with your friend everyday and Don't fight!
