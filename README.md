@@ -23,6 +23,12 @@ Other Capabilities: It also has many other capabilities, like if I tell it to pl
 
 # Hope You Like My Project!
 
+# Wiring Diagrma Pic:
+
+![Screenshot 2025-06-14 144505](https://github.com/user-attachments/assets/9bae2d43-0901-490d-bec1-433465ad9178)
+
+
+
 Here are some Pics!!!
 
 ![Screenshot 2025-05-31 104614](https://github.com/user-attachments/assets/96e79cef-b264-4450-8c8a-a57a56af044b)
