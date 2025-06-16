@@ -4,15 +4,15 @@ Author: "Sahil321-Coder"
 Description: "A AI Assistant made with Raspberry Pi"
 Created_at: "29-05-2025"
 ---
-# Total Time Spent = 30 Hours
+# Total Time Spent = 29 Hours
 
 # May 29th: Choosing the Hardware, Software & Designing 3D Model
 
-# 9:00 PM
+9:00 PM
 
 So, today I will be chosing the hardware for my project and also I need to choose them by their quality, price & its working too! So, its  9:00 AM here I am on my laptop
 
-# 4:00 PM:
+4:00 PM:
 So I have successfully chosen the hardware and there is also the lists of Hardware and Software below.
 So, the hardware I have chosen is 🛠️:
  1. Raspberry Pi 4 4GB
@@ -31,11 +31,14 @@ So, the software I have chosen is 💻:
    ![Screenshot 2025-05-29 090920](https://github.com/user-attachments/assets/dbe9520b-719e-4b50-9476-25c67784cc9e)
    ![Screenshot 2025-05-29 091201](https://github.com/user-attachments/assets/a8cdb03f-1d8e-487b-b8e6-5aa9c7ed2e48)
 
+The hardware and software I have chosen are completely free and are working perfect on Windows & Mac, so note the hardware and take it.Bye!!
 
-
-**Total time spent: 6.2h**
+**Total time spent: 6h**
 
 # May 30th: Half Python Programming!
+
+So, today we will be writing and installing the required softwares and apps, firts you are going to need Raspberry Pi Imager software and the details you are going to need for to put in the software are given 👇 below.
+
 
 After Downloading Raspberry Pi Imager.
 You will get three options on starting Pi Imager:
@@ -86,13 +89,13 @@ wget https://www.argosopentech.com/argospm/index/translate-hi_en.argosmodel
 argos-translate --install translate-hi_en.argosmodel
 06
 ```
-**Total time spent: 7.5h**
+**Total time spent: 7h**
 
 # May 31st: Python Programming Completed and the Project also Completed!
 
-So, I have yesterday made the Python Programming but half and now I am completing it and also adding advaced features like Music, Time, Wetaher, etc.To know more features stay  tuned for the final prototype, it will be made if my project gets approved! And also make sure you are well known to python programming, beacuse you need to have a proper knowledge of python for this project, to resolve error, & queries, etc. So, best of luck for your project.!
+So, I have yesterday made the Python Programming but half and now I am completing it and also adding advaced features like Music, Time, Wetaher, etc.To know more features stay  tuned for the final prototype, it will be made if my project gets approved! And also make sure you are well known to python programming, beacuse you need to have a proper knowledge of python for this project, to resolve error, & queries, etc. So, best of luck for your project.!This project will be a great step into my whole projects career 
 
-# Below is the folder structure. Your folder structure for Raspberry Pi Imager should resemble this, and also unzip the VOSK model file as specified in the structure.
+*Below is the folder structure. Your folder structure for Raspberry Pi Imager should resemble this, and also unzip the VOSK model file as specified in the structure*
 
 So, today is the last day, and  I have successfully completed the Python Programming. The file of Python Programming is given in the Important Files > Program files > ( Here you will get the file ) 
 
@@ -108,7 +111,7 @@ raspi-assistant/
 ```
 The code file is given in "assistant.py" in the important files, and also name the song you want as song1.mp3. The folder structure is given 
 
-**Total time spent: 11.5h**
+**Total time spent: 11h**
 
 # June 1st: Writing the README.md!
 
