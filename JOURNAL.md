@@ -127,6 +127,10 @@ argos-translate --install translate-hi_en.argosmodel
 
 So, I have yesterday made the Python Programming but half and now I am completing it and also adding advaced features like Music, Time, Wetaher, etc.To know more features stay  tuned for the final prototype, it will be made if my project gets approved! And also make sure you are well known to python programming, beacuse you need to have a proper knowledge of python for this project, to resolve error, & queries, etc. So, best of luck for your project.!This project will be a great step into my whole projects career 
 
+
+![image](https://github.com/user-attachments/assets/461667cd-eb3d-4e78-9c2b-44ed97a6aac6)
+
+
 *Below is the folder structure. Your folder structure for Raspberry Pi Imager should resemble this, and also unzip the VOSK model file as specified in the structure*
 
 So, today is the last day, and  I have successfully completed the Python Programming. The file of Python Programming is given in the Important Files > Program files > ( Here you will get the file ) 
