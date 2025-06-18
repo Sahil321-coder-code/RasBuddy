@@ -1,108 +1,106 @@
+import vosk
 import sounddevice as sd
 import queue
 import json
 import pyttsx3
-import random
+import serial
 import requests
-from vosk import Model, KaldiRecognizer
+import random
 
-# Initialize voice engine
-engine = pyttsx3.init()
-engine.setProperty('rate', 150)
-
-# Load Vosk English model
-model = Model("vosk-model-small-en-us-0.15")
-rec = KaldiRecognizer(model, 16000)
-
-# Translation function (Hindi → English)
-def translate(text):
-    try:
-        response = requests.post(
-            "http://localhost:5000/translate",
-            headers={"Content-Type": "application/json"},
-            json={
-                "q": text,
-                "source": "hi",
-                "target": "en",
-                "format": "text"
-            }
-        )
-        return response.json()["translatedText"]
-    except Exception as e:
-        print("Translation error:", e)
-        return text
-
-# Text-to-speech
-def speak(text):
-    print("Bot:", text)
-    engine.say(text)
-    engine.runAndWait()
-
-# Voice input queue
+# Initialize
 q = queue.Queue()
+model = vosk.Model("vosk-model-small-en-us-0.15")
+samplerate = 16000
+ser = serial.Serial('COM3', 115200)  # Change COM port accordingly
+engine = pyttsx3.init()
+
+# Fun facts & jokes
+facts = [
+    "The sun is 93 million miles away.",
+    "Octopuses have three hearts.",
+    "Honey never spoils.",
+    "Bananas are berries.",
+    "Your brain uses 20 percent of your body's energy."
+]
+
+jokes = [
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "Why did the computer get cold? Because it forgot to close windows.",
+    "What did the zero say to the eight? Nice belt!",
+    "Why can't you trust stairs? They're always up to something.",
+    "What’s orange and sounds like a parrot? A carrot."
+]
+
+# Listen callback
 def callback(indata, frames, time, status):
     if status:
         print(status)
     q.put(bytes(indata))
 
-# Jokes, facts, responses
-jokes = [
-    "Why did the tomato turn red? Because it saw the salad dressing!",
-    "How do you organize a space party? You planet!",
-    "Why was the math book sad? It had too many problems.",
-    "I told my computer I needed a break, and it said no problem—it would go to sleep.",
-    "Why did the scarecrow win an award? Because he was outstanding in his field!"
-]
+def speak(text):
+    print("Speaking:", text)
+    engine.say(text)
+    engine.runAndWait()
 
-facts = [
-    "Octopuses have three hearts.",
-    "Bananas are berries, but strawberries aren't.",
-    "A bolt of lightning is five times hotter than the sun.",
-    "Honey never spoils.",
-    "Sharks are older than trees."
-]
+def translate_hi_to_en(text):
+    try:
+        r = requests.post("http://localhost:5000/translate", json={
+            "q": text,
+            "source": "hi",
+            "target": "en",
+            "format": "text"
+        })
+        return r.json()["translatedText"]
+    except Exception as e:
+        print("Translation failed:", e)
+        return text
 
-responses = {
-    "how are you": "I'm doing great, thank you!",
-    "hello": "Hello there!",
-    "what is your name": "I'm your voice assistant.",
-    "bye": "Goodbye! Have a great day!",
-    "thank you": "You're welcome!"
-}
+# Main loop
+def main():
+    print("Listening...")
+    with sd.RawInputStream(samplerate=samplerate, blocksize=8000, dtype='int16',
+                           channels=1, callback=callback):
+        rec = vosk.KaldiRecognizer(model, samplerate)
+        while True:
+            data = q.get()
+            if rec.AcceptWaveform(data):
+                result = json.loads(rec.Result())
+                text = result.get("text", "")
+                if not text:
+                    continue
+                print("You said:", text)
 
-# Run the voice assistant
-print("Listening... Speak in English or Hindi.")
+                # If text is Hindi, translate
+                if any('\u0900' <= char <= '\u097F' for char in text):
+                    text = translate_hi_to_en(text)
+                    print("Translated to:", text)
 
-with sd.RawInputStream(samplerate=16000, blocksize=8000, dtype='int16',
-                       channels=1, callback=callback):
-    while True:
-        data = q.get()
-        if rec.AcceptWaveform(data):
-            result = json.loads(rec.Result())
-            text = result.get("text", "").strip()
-            if not text:
-                continue
+                # Respond to commands
+                if "how are you" in text:
+                    speak("I'm doing great, thank you!")
+                    ser.write(b"happy\n")
 
-            print("Recognized:", text)
+                elif "tell me a joke" in text:
+                    joke = random.choice(jokes)
+                    speak(joke)
+                    ser.write(b"joke\n")
 
-            # Detect Hindi (very simple check)
-            if any('\u0900' <= c <= '\u097F' for c in text):
-                print("Detected Hindi, translating...")
-                text = translate(text)
-                print("Translated to English:", text)
+                elif "tell me a fact" in text:
+                    fact = random.choice(facts)
+                    speak(fact)
+                    ser.write(b"fact\n")
 
-            response = None
-            for key in responses:
-                if key in text.lower():
-                    response = responses[key]
+                elif "hello" in text or "hi" in text:
+                    speak("Hello there! I'm your assistant.")
+                    ser.write(b"hello\n")
+
+                elif "bye" in text:
+                    speak("Goodbye!")
                     break
 
-            if not response:
-                if "joke" in text.lower():
-                    response = random.choice(jokes)
-                elif "fact" in text.lower():
-                    response = random.choice(facts)
                 else:
-                    response = "You said: " + text
+                    speak("I heard you say: " + text)
+                    ser.write((text + '\n').encode())
 
-            speak(response)
+if __name__ == "__main__":
+    main()
