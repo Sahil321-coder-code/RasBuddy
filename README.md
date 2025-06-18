@@ -1,5 +1,11 @@
 # RasBuddy
 
+# Total Cost Needed:
+```
+$30
+```
+
+
 An AI Assistant for your family, with advanced AI Features.
 
 ![Screenshot 2025-06-14 124225](https://github.com/user-attachments/assets/677e1969-142c-4b84-89ff-0a6201f27863)
@@ -32,6 +38,5 @@ The parts list is given in the Parts List(BOM). csv.
 
 |     Item      |                                                        Purpose                                                               |     Source    |     Price     |    Links    | Total Price
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------- | -------------- | --------------------- |
-| ESP32 DevKit Module           | The Microcontroller                                                                                   |RoboSAP     |$3.12            |      https://robosap.in/product/node-mcu-esp-32-wifi-bluetooth-ble-development-board/       |  $6.06                     |
-|50 CM Micro USB Cable |To power Arduino and for uploading code                                                             |Ebhoot        |$0.37          |      https://ebhoot.in/shop-2/electronics-components/wires-cables/usb-to-micro-usb-cable-for-nodemcu-and-raspberry-pi/       |       $0.61              |
-
+| ESP32 DevKit Module           | The Microcontroller                                                                                   |RoboSAP     |$10            |      https://robosap.in/product/node-mcu-esp-32-wifi-bluetooth-ble-development-board/       |  $10                     |
+|50 CM Micro USB Cable |To power Arduino and for uploading code                                                             |Ebhoot        |$7          |      https://ebhoot.in/shop-2/electronics-components/wires-cables/usb-to-micro-usb-cable-for-nodemcu-and-raspberry-pi/       |       $10              |
