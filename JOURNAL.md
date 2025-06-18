@@ -70,7 +70,7 @@ LibreTranslate server will be available at:
 ```bash
 http://localhost:5000
 ```
-🧠 Step 3: Install the Argos Model (Hindi → English)
+🧠 Step 3: Install the Argos Model (Hindi → English)(you will get a Argos file in the Libraries folder)
 You have an .argosmodel file already downloaded. Let’s install it.
 1.Install Argos Translate CLI (only needed once):
 ```bash
@@ -102,9 +102,8 @@ Output should be: "I know Hindi"
 
 Next, install the Arduino IDE from the Arduino Website and set the Board to ESP32 Dev Module
 Install the libraries given below:
-1.WiFi.h
-2.HTTPClient.h
-3.ArduinoJson
+1.Adafruit_SSD1306
+2.Adafruit_GFX
 
 ✅ You’re Done.
 
@@ -118,7 +117,7 @@ So, I have yesterday made the Python Programming but half and now I am completin
 ![image](https://github.com/user-attachments/assets/461667cd-eb3d-4e78-9c2b-44ed97a6aac6)
 
 
-*Below is the folder structure. Your folder structure for Raspberry Pi Imager should resemble this, and also unzip the VOSK model file as specified in the structure*
+*Below is the folder structure. Your folder structure for Pycharm should resemble this, and also unzip the VOSK model file as specified in the structure*
 
 So, today is the last day, and  I have successfully completed the Python Programming. The file of Python Programming is given in the Important Files > Program files > ( Here you will get the file ) 
 
