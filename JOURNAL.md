@@ -41,7 +41,6 @@ So, the software I have chosen is 💻:
 
    
  6. Libraries: vosk, sounddevice, pyttsx3, argostranslate, requests, Pillow, Adafruit-SSD1306, etc.
-     (Refer to instructions.txt )
 
 ![image](https://github.com/user-attachments/assets/a22aeefc-d90c-4331-8823-27c9c90ca5eb)
 
@@ -71,11 +70,43 @@ LibreTranslate server will be available at:
 ```bash
 http://localhost:5000
 ```
-🧠 STEP 3: Add Hindi Language Support
-LibreTranslate uses Argos Translate models under the hood.
+🧠 Step 3: Install the Argos Model (Hindi → English)
+You have an .argosmodel file already downloaded. Let’s install it.
+1.Install Argos Translate CLI (only needed once):
+```bash
+pip install argos-translate
+```
+2.pip install argos-translate
+```bash
+argos-translate-cli --install path\to\hi_en.argosmodel
+```
+✅ Step 3: Test Your Local LibreTranslate
+Run this Python code to check if Hindi → English translation works:
+```bash
+import requests
 
-🛠 Install Argos Models:
-Download the Hindi ➜ English model from [here](
+response = requests.post("http://localhost:5000/translate", data={
+    "q": "मुझे हिंदी आती है",
+    "source": "hi",
+    "target": "en",
+    "format": "text"
+})
+
+print(response.json()["translatedText"])
+```
+
+Output should be: "I know Hindi"
+
+✅ You’re Done
+
+
+Next, install the Arduino IDE from the Arduino Website and set the Board to ESP32 Dev Module
+Install the libraries given below:
+1.WiFi.h
+2.HTTPClient.h
+3.ArduinoJson
+
+✅ You’re Done.
 
 **Total time spent: 7h**
 
@@ -91,17 +122,19 @@ So, I have yesterday made the Python Programming but half and now I am completin
 
 So, today is the last day, and  I have successfully completed the Python Programming. The file of Python Programming is given in the Important Files > Program files > ( Here you will get the file ) 
 
-Your folder in Raspberry Pi should look like this :
+Your folder in PyCharm should look like this :
 ```bash
-raspi-assistant/
-├── assistant.py            # Final Python code
-├── vosk-model/             # Extracted vosk model folder (e.g. vosk-model-small-en-us-0.15)
-├── music/
-│   └── song1.mp3           # Your music file
-└── translate_model.argosmodel  # Optional: Argos Hindi-English model if offline
-
+YourProject/
+├── bot.py                      ← This Python script
+├── vosk-model-small-en-us-0.15/
+└── (Docker running LibreTranslate)
 ```
-The code file is given in "assistant.py" in the important files, and also name the song you want as song1.mp3. The folder structure is given 
+
+Also, install these libraries for the Python Code:
+```bash
+pip install vosk pyttsx3 sounddevice requests
+```
+
 
 **Total time spent: 11h**
 
