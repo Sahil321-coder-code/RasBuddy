@@ -1,2 +1,0 @@
-*3D Files*
-Firstly, I  have given three folders; each folder has the same files named, but the file format is different, so each folder has different files named. I want to 3D Print 1 file from each folder, so in total the 3D Printed parts will be 3.
