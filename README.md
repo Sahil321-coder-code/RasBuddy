@@ -2,8 +2,10 @@
 
 # Total Cost Needed:
 ```
-$30
+$45
 ```
+*The extra Cost is for the Libre API & Pycharm Pro Edition beacsue Pycharm Community Edition cannot handle this code due to some restrictions.
+
 
 
 An AI Assistant for your family, with advanced AI Features.
