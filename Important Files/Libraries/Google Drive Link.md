@@ -1,4 +1,4 @@
-Copy this link and paste it in your browser, and download the two files on your desktop (Note: use these files only)
+Copy this link and paste it in your browser, and download the files on your desktop (Note: use these files only)
 
 ```bash
 https://drive.google.com/drive/folders/1VTE0Hbcf82uR4VBGM6UFqQJl62SNPxDM?usp=sharing
