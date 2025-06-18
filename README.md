@@ -32,11 +32,6 @@ The parts list is given in the Parts List(BOM). csv.
 
 |     Item      |                                                        Purpose                                                               |     Source    |     Price     |    Links    | Total Price
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------- | -------------- | --------------------- |
-| OLED Displayr           |For displaying animated eyes, Time, Short Answers, & Weather                                                                                    |Ebhoot     |$5.81            |      https://ebhoot.in/shop-2/display-devices/0-96-inch-i2c-iic-128x64-oled-display-module-4-pin-white-color/       |  $6.06                     |
+| ESP32 DevKit Module           | The Microcontroller                                                                                   |RoboSAP     |$3.12            |      https://robosap.in/product/node-mcu-esp-32-wifi-bluetooth-ble-development-board/       |  $6.06                     |
 |50 CM Micro USB Cable |To power Arduino and for uploading code                                                             |Ebhoot        |$0.37          |      https://ebhoot.in/shop-2/electronics-components/wires-cables/usb-to-micro-usb-cable-for-nodemcu-and-raspberry-pi/       |       $0.61              |
-|Rasberry Pi SD Card    | Storage                                 |RoboticsDNA       | $4.63 |   https://roboticsdna.in/product/official-raspberry-pi-micro-sd-card-32gb-a2-class-unprogrammed/    |      $5.63         |   
-|Raspberry Pi 4  B ( 4 GB )  | Offline Controller                                |RoboticsDNA        | $55.78 |   https://roboticsdna.in/product/raspberry-pi-4-model-b-4gb/    |      $56.78        | 
-|Speaker 3.5mm Jack | To hear the output                                |n/a       | $5 |   https://amzn.in/d/64C3BAz    |      $5         |
-|USB Microphone Compatible to Raspberry Pi | To give the input                                 |Silverline Electronic        | $2.67 |   https://www.silverlineelectronics.in/products/copy-of-5mp-camera-module-for-raspberry-pi?_pos=1&_sid=8e2c59963&_ss=r   |      $2.67        |
-
 
