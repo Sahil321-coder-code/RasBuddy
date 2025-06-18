@@ -1,0 +1,6 @@
+| OLED Pin | Connect to ESP32    |
+| -------- | ------------------- |
+| VCC      | 3.3V                |
+| GND      | GND                 |
+| SCL      | GPIO22 (or default) |
+| SDA      | GPIO21 (or default) |
