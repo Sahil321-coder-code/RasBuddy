@@ -9,29 +9,16 @@ So this is the AI Assistant Designed to Communicate with Humans And it is equipp
 
 Features:
 
-Voice Recognition: This raspberry listen to the input you give using the USB microphone and processes the answer. And give you the answer on OLED Display. It will accurately listen to the input and will give a more precise answer as if using the Vosk model.
+Voice Recognition: This ESP32 listens to the input you give using the microphone and processes the answer. And give you the answer on OLED Display. It will accurately listen to the input and will give a more precise answer as if using the Vosk model.
 
 Translation: It also translates what you say the model I'm using here is Hindi to English I'm using Argos model for translation so if I say "Udhar Kya Hai?" in Hindi so it will write it's version in English format on OLED display and even speak it it will be like "What is there?".
 
-Playing Music: It will also play music when you say play music in I've just added one song feature, but you can also change it as your convenience.
-
-Weather: It also gives me real-time weather where I live (Nashik). I'm using open meteo here to give me exact, real-time weather. You can change the place where you live like the country or the city where you live by just changing the latitude and longitude in the code.
-
 ![Screenshot 2025-06-14 124350](https://github.com/user-attachments/assets/6e122cb5-7d3e-47d2-a75d-88d96332ed40)
-
-Other Capabilities: It also has many other capabilities, like if I tell it to play a joke, so it'll say a joke for me that similar but very interesting capabilities that are very rarely seen in today's diy ai chatbot, so I think you'll like this project.
 
 # Hope You Like My Project!
 
-# Wiring Diagrma Pic:
-
-![Screenshot 2025-06-14 144505](https://github.com/user-attachments/assets/9bae2d43-0901-490d-bec1-433465ad9178)
-
-
-
 Here are some Pics!!!
 
-![Screenshot 2025-05-31 104614](https://github.com/user-attachments/assets/96e79cef-b264-4450-8c8a-a57a56af044b)
 
 
 
