@@ -2,9 +2,9 @@
 
 # Total Cost Needed:
 ```
-$45
+$37
 ```
-*The extra Cost is for the Libre API & Pycharm Pro Edition beacsue Pycharm Community Edition cannot handle this code due to some restrictions.
+*The extra Cost is for the Libre API for translation.
 
 
 
