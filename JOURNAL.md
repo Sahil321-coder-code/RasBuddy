@@ -150,7 +150,8 @@ So, after an intense search for the software I have chosen 2 softwares for  my p
 
 So now I am designing the 3D Model here are it's pics!
 
-![Web_Photo_Editor](https://github.com/user-attachments/assets/675ffecb-1269-4aae-b113-db4bb5b49e6a)
+![gandr-collage](https://github.com/user-attachments/assets/6c80d18c-58b8-4603-a61b-f11cbdb58ca9)
+
 
 and these both softwares are  free of cost! so enjoy making your project!
 
