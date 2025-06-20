@@ -10,7 +10,7 @@ $37
 
 An AI Assistant for your family, with advanced AI Features.
 
-![Screenshot 2025-06-14 124225](https://github.com/user-attachments/assets/677e1969-142c-4b84-89ff-0a6201f27863)
+![Screenshot 2025-06-20 141445](https://github.com/user-attachments/assets/26404848-039c-463b-b822-380881af3d48)
 
 
 So this is the AI Assistant Designed to Communicate with Humans And it is equipped with very high precision ai features like if you say tell me a joke it will say random joke so this is a very nice robot that is ideal for both kids and work in professionals if they need help with something it will help you.
@@ -21,7 +21,8 @@ Voice Recognition: This ESP32 listens to the input you give using the microphone
 
 Translation: It also translates what you say the model I'm using here is Hindi to English I'm using Argos model for translation so if I say "Udhar Kya Hai?" in Hindi so it will write it's version in English format on OLED display and even speak it it will be like "What is there?".
 
-![Screenshot 2025-06-14 124350](https://github.com/user-attachments/assets/6e122cb5-7d3e-47d2-a75d-88d96332ed40)
+![Screenshot 2025-06-20 141535](https://github.com/user-attachments/assets/4c24fe20-0ce0-48cc-94ae-4600f74ed0c9)
+
 
 # Hope You Like My Project!
 
@@ -29,8 +30,7 @@ Here are some Pics!!!
 
 
 
-
-![Screenshot 2025-06-14 124414](https://github.com/user-attachments/assets/adf1de72-270e-40f7-95e6-a99c20023e0c)
+![Screenshot 2025-06-20 141558](https://github.com/user-attachments/assets/b7c0fde6-c5df-47df-859b-13cd99e924a1)
 
 
 
